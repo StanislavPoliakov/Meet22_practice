@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomLayoutLP">
+        <attr name="android:layout_gravity" />
+        <attr name="layout_position">
+            <enum name="middle" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MyCustomLayoutLP">
+        <attr name="element_column" format="integer"/>
+        <attr name="element_row" format="integer"/>
+        <attr name="element_width" format="integer"/>
+        <attr name="element_height" format="integer"/>
+    </declare-styleable>
+</resources>
