@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <!-- Ничего не добавляю разметку! Все элементы будут создаваться динамически-->
-<home.stanislavpoliakov.meet22_practice.MyCustomLayout
+<home.stanislavpoliakov.meet22_practice.MyCustomLayout xmlns:customLayout="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    customLayout:maxColumnCount="4"
+    customLayout:maxRowCount="8"
+    tools:context=".MainActivity">
 </home.stanislavpoliakov.meet22_practice.MyCustomLayout>
